@@ -1,7 +1,4 @@
 <div align="right">
-  <a href="./README.md" title="Português">
-    <img src="https://flagcdn.com/w40/br.png" alt="Português" width="30"/>
-  </a>
   <a href="./README.en.md" title="English">
     <img src="https://flagcdn.com/w40/us.png" alt="English" width="30"/>
   </a>
