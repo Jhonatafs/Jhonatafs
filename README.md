@@ -1,3 +1,9 @@
+<div align="right">
+  <a href="./LEIA-ME.md" title="Português">
+    <img src="https://flagcdn.com/w40/br.png" alt="Português" width="30"/>
+  </a>
+</div>
+
 ## Projects
 
 * **[Personal Blog](https://jhonfs.com/)**: I call this my space on the web. I write for myself—mostly study notes—to recall concepts or review my learning process.
