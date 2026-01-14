@@ -13,21 +13,21 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Jhonatafs
           template: classic
-          base: ""
-          config_timezone: America/Bahia
-
-          # Configurações Globais
-          repositories_forks: yes
-          # Plugin de Linguagens
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 0
-          plugin_languages_threshold: 0%
-          plugin_languages_ignored: >-
-            Jhonfs, dotfiles, Jhonatafs, Phoenix-Party, sicp-pt-br
-          
-          # Estética e Organização
-          plugin_languages_details: percentage, lines
-          plugin_languages_sections: most-used
+          base: "" 
+          config_timezone: America/Sao_Paulo
           config_theme: dark
+          
+          repositories_forks: yes
+          plugin_languages: yes
+          plugin_languages_recent_days: 0
+          plugin_languages_indepth: yes
+          
+          plugin_languages_limit: 15
+          plugin_languages_threshold: 0%
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          
+          # Filtros e Omissões
+          plugin_languages_ignored: >-
+            html, css, Jhonfs, dotfiles, Jhonatafs, Phoenix-Party, sicp-pt-br
           repositories_skipped: Jhonfs, dotfiles, Jhonatafs, Phoenix-Party, sicp-pt-br
