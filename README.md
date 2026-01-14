@@ -4,6 +4,8 @@
   </a>
 </div>
 
+![Linguagens de Jhonatafs](github-metrics.svg)
+
 ## Projects
 
 * **[Personal Blog](https://jhonfs.com/)**: I call this my space on the web. I write for myself — mostly study notes — to recall concepts or review my learning process.
